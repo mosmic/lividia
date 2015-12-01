@@ -1,0 +1,114 @@
+body {
+    padding: 70px 0 0 0;
+    z-index: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:link, a:visited { 
+    color: #fff;
+    text-decoration: none;
+    cursor: auto;
+}
+
+a:hover, a:link:active, a:visited:active { 
+    color: #0bac7d;
+}
+
+h4 {
+    color: #585858;
+}
+
+h5 {
+    color: #00cc6e;
+}
+
+.row-header {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.row-content {
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+
+.row-footer{
+    background-color: #818181;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    color: #fff;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0 auto;
+    background: #00cc6e;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar {
+    background: #00cc6e;
+    min-height: 70px !important;
+    border-bottom: 1px solid #0bac7d;
+}
+
+.navbar .navbar-nav > li > a {
+    color: #fff;
+    padding: 28px 5px 28px 20px;
+    background: transparent;
+}
+
+.navbar .navbar-nav > li > a:hover {
+    color: #000;
+}
+
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-toggle {
+    margin-top: 20px;
+    border-color: #fff;
+}
+
+.navbar-toggle:hover {
+    background: #0bac7d;
+
+}
+
+#reserveModal {
+    color: #000;
+}
+
+.btn-general {
+    border: 3px solid #0bac7d;
+    color: #fff;
+    margin: 10px 10px 10px 0;
+}
+
+.greenBtn {
+    background: #00cc6e;
+}
+
+.orangeBtn {
+    background: #ffcc00;
+}
+
+#photo {
+    background: url('/img/ImageBicycles.jpg') no-repeat center top scroll;
+    background-size: 100% auto;
+    padding-bottom: 50%;
+}
+
+#contentTitle {
+    color: #818181;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+}
+
+#copyright {
+    font-family: 'Slabo 27px', serif;
+}

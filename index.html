@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vythoulkas Dimitrios</title>
+    
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/mystyles.css" rel="stylesheet">
+    
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    
+</head>
+
+<body>
+
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" height=51 width=132></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">OUR CHAPTERS</a></li>
+                    <li><a href="#">TAKE ACTION</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                </ul>
+                <div class="navbar-form navbar-right" role="form">
+                    <button id="loginBtn" class="btn btn-general greenBtn">LOG IN</button>
+                    <button class="btn btn-general orangeBtn">JOIN US</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close loginBtnClose">&times;</button>
+                <h4 class="modal-title">Login </h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-inline" role="form">
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">
+                    <input type="password" class="form-control" placeholder="Password">
+                    <div class="checkbox-inline">
+                        <input type="checkbox" name="approve" value="">
+                        <strong>Remember me</strong>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn btn-info">Sign in</button>
+                <button type="button" class="btn btn-default btn-sm loginBtnClose">Cancel</button>
+            </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div col-xs-12>
+            <div id="photo"></div>
+        </div>
+    </div>
+    
+    <header class="jumbotron">
+
+        <!-- Main component for a primary marketing message or call to action -->
+
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-xs-12">
+                    <h3>SED UT PERSPICIATIS UNDE.</h3>
+                    <p>Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                </div>
+            </div>
+            <p style="padding:30px;"></p>
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="col-xs-3">
+                        <img src="img/icon-speedometer.png" class="img-responsive center-block">
+                    </div>
+                    <div class="col-xs-3">
+                        <img src="img/icon-tablet-phone.png" class="img-responsive center-block">
+                    </div>
+                    <div class="col-xs-3">
+                        <img src="img/icon-globe.png" class="img-responsive center-block">
+                    </div>
+                    <div class="col-xs-3">
+                        <img src="img/Icon-timer.png" class="img-responsive center-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="contentTitle">
+                    <p style="padding:5px;"></p>
+                    <h2>Latest News &amp; Updates</h2>
+                </div> 
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-xs-12 col-md-4">
+                <h4>RECENT BLOG POSTS</h4>
+                <h5>DONEC RHONCUS DIGNISSIM VELIT, QUIS VESTIBULUM NUNC SEMPER</h5>
+                <p>Integer ut risus dictum, faucibus enim vitae, cursus dolor. Quisque nec turpis id libero eleifend cursus ut vitae mi. Praesent dignissim in nibh et aliquam. Praesent cursus ac sem a efficitur. Nunc vel augue viverra, faucibus urna ac, tempor dui. Aliquam in gravida dolor. </p>
+                <button class="btn btn-general greenBtn">Read more</button>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h4>FEATURED POSTS</h4>
+                <h5>SED NEC AUCTOR TURPIS</h5>
+                <p>Phasellus ac luctus nibh, quis laoreet sem. Sed placerat augue non libero vulputate ultricies. Aliquam vehicula laoreet suscipit. Cras aliquet rutrum vestibulum. Vivamus varius rutrum felis, a cursus felis. Proin blandit, tortor sit amet posuere feugiat, nunc nunc efficitur augue, id sollicitudin erat lectus ut diam. In at orci a eros dapibus imperdiet. Maecenas vel nunc ac purus gravida ullamcorper.</p>
+                <button class="btn btn-general greenBtn">Read more</button>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h4>RESOURCES</h4>
+                <h5>UT SAGITTIS AT FELIS VEL</h5>
+                <img class="img-responsive" src="img/image-bananas.jpg" alt="Bananas">
+                <p style="padding:3px;"></p>
+                <p>Quisque hendrerit risus vitae odio ultrices commodo at non nisi. Nullam vitae sollicitudin leo, hendrerit euismod nunc. Vestibulum feugiat eros id urna feugiat, id molestie velit porttitor. Proin sollicitudin ullamcorper mauris, et posuere magna molestie ut. Donec cursus dapibus mi at auctor.</p>
+                <button class="btn btn-general greenBtn">Read more</button>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <footer class="row-footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-xs-12 col-sm-7 col-md-8">
+                    <ul class="list-inline">
+                        <li><a href="#">OUR CHAPTERS</a></li>
+                        <li><a href="#">TAKE ACTION</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                    </ul>
+                </div>
+                
+                <!--Social menu-->
+                <div class="col-xs-12 col-sm-5 col-md-4">
+                    <div class="nav navbar-nav" style="margin: 0px 0 0px;">
+                        <a class="btn btn-social-icon" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon" href="http://pinterest.com/"><i class="fa fa-pinterest"></i></a>
+                        <a class="btn btn-social-icon" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>    
+                    </div>
+                </div>
+                <div id="copyright" class="col-xs-12">
+                    <p style="padding:10px;"></p>
+                    2015 Copyright OurLogo.com
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <script>
+        $("#loginBtn").click(function(){
+            $("#loginModal").modal('show');
+        });
+        
+        $(".loginBtnClose").click(function(){
+            $("#loginModal").modal('hide');
+        });
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "Lividia",
+  "homepage": "https://github.com/mosmic/lividia",
+  "authors": [
+    "Dimitris Vythoulkas <vythoulkas@hotmail.com>"
+  ],
+  "description": "Code challenge for lividia",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "Lividia",
+    "responsive",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.5.0"
+  }
+}
